@@ -1,0 +1,7 @@
+ 30  yum install wget
+   31  wget https://releases.hashicorp.com/terraform/1.0.3/terraform_1.0.3_linux_amd64.zip
+   32  yum install unzip
+   33  unzip terraform_1.0.3_linux_amd64.zip
+   34  ls
+   35  mv terraform /usr/bin/
+   36  terraform
